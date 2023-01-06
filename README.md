@@ -4,7 +4,7 @@
 ```
 본 프로젝트는 Kotra 내부 서비스 적용을 위해 현재 계약을 진행하였고, 
 코드를 포함한 최종 결과물의 사용 권한을 Kotra에 이관하였음을 알립니다.
-그렇기에, 해당 repository에서는 회의록을 포함한 일부 작업만이 확인이 가능합니다.
+그렇기에, 해당 repository에서는 샘플 데이터, 회의록 등의 일부 자료만 확인 가능합니다.
 ```
 ## 기술 스택
 > <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">  
@@ -76,3 +76,35 @@
 |:---:|:---:|:---:|:---:|
 |all-mpnet-base-v2|63.30|2800|420|
 
+<br>
+
+## Output View
+### 1. Dashboard Page
+![image](https://user-images.githubusercontent.com/45115733/210954453-e899fc53-77d2-4722-afba-c5d7db93fbdb.png)
++ **L0** : **Scraping Progress Time** - 자동화 시스템 동작으로 DB 갱신 시각 &nbsp;&nbsp;&nbsp;  
++ **L1** : **Search Keyword** - 키워드 검색 및 국가별 최신 키워드 출력&nbsp;&nbsp;&nbsp;  
++ **L2** : **Keyword Bar Chart** - 국가별 키워드 비중 막대 그래프&nbsp;&nbsp;&nbsp;  
++ **L3** : **Keyword Table** - 키워드 관련 코드표&nbsp;&nbsp;&nbsp;  
++ **L4** : **Key Customs Notice** - 키워드 관련 국가별 세관 고시&nbsp;&nbsp;&nbsp;  
++ **L5** : **New Customs Notice** - DB 갱신 직후, 최신 세관 고시&nbsp;&nbsp;&nbsp;  
+
+
+### 2. Customs Notice Page - Australia
+![image](https://user-images.githubusercontent.com/45115733/210954941-bd4df17d-f5b2-498f-866d-067b81f4fc88.png)
++ **L1** : **Key Customs Notice** - 모니터링 품목과 매칭된 핵심 세관고시 리스트 (Date, Title, Keyword, Link)&nbsp;&nbsp;&nbsp;  
++ **L2** : **New Customs Notice** - 최신 세관고시 리스트 (Date, Title, Tag, Link)&nbsp;&nbsp;&nbsp;  
+
+![image](https://user-images.githubusercontent.com/45115733/210953210-c1ac3041-1215-49b8-9f41-ae08b826df5b.png)
++ **L1** : **Matching Table** - 고시 키워드와 국가별 모니터링 품목 매칭표 (Keyword, MTI4, MTI6, HSCODE, Industry, More)&nbsp;&nbsp;&nbsp;  
+
+![image](https://user-images.githubusercontent.com/45115733/210953904-c4baca29-b7ba-4cfa-aa7e-3662821945d9.png)
++ **L1** : **MORE INFO MODAL** - 모니터링 품목 관련 추가적인 HSCODE, KSIC 리스트 &nbsp;&nbsp;&nbsp;  
+
+### 3. Customs Notice Page - China, America, Japan, Vietnam
+![image](https://user-images.githubusercontent.com/45115733/210955184-bc5e8ac8-36cd-468b-a43d-7b720b7c8d05.png)
+
+<br>
+
+## Contacts
+프로젝트 관련 문의는 다음의 이메일을 이용해 주시기 바랍니다.  
+E-mail : remf123@gmail.com
