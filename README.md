@@ -103,6 +103,8 @@
 ### 3. Customs Notice Page - China, America, Japan, Vietnam
 ![image](https://user-images.githubusercontent.com/45115733/210955184-bc5e8ac8-36cd-468b-a43d-7b720b7c8d05.png)
 
+**시연 영상 링크**  
+https://www.youtube.com/watch?app=desktop&v=89itkBMtdCQ&feature=youtu.be
 <br>
 
 ## Contacts
